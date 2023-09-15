@@ -6,20 +6,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pokédex</title>
 	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/style_index.css">
 </head>
 
 <body>
-	<div class="container">
+	<header>
 		<div class="logo"> <img src="/images/logo.png" alt="logo"> </div>
-		<div class="device">
-			<img src="/images/roton.png" alt="rotondex">
-			<h1>Pokédex</h1>
-			<ul class="pokeList"></ul>
-			<a href="" class="prevPage">Previous</a> | <a href="" class="nextPage">Next</a>
-		</div>
-	</div>
-
+	</header>
+	<div class="container">
+		<div class="index_grid">
+			<div class="device">
+				<img src="/images/roton.png" alt="rotondex">
+				<h1>Pokédex</h1>
+				<ul class="pokeList"></ul>
+				<a href="" class="prevPage">Previous</a> | <a href="" class="nextPage">Next</a>
+			</div>
+			<div class="pokemon_img">
+				<img src="/images/pokemons.png" alt="pikachu">
+			</div>
+		</div> <!-- index_grid-->
+	</div> <!-- container -->
 	<script src="/app.js" defer></script>
+	<footer>
+		<p>Casper</p>
+	</footer>
 </body>
 
 </html>

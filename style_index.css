@@ -1,0 +1,21 @@
+.index_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.pokemon_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon_img img {
+    width: 70%;
+    height: auto;
+}
+
+.device img,
+.roton {
+    width: 100px;
+}
