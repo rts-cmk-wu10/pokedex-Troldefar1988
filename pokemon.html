@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pokédex</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo"> <img src="/images/logo.png" alt="logo"> </div>
+		<img class ="roton" src="/images/roton.png" alt="rotondex">
+		<div>
+			<form>
+				<label>
+					Search for a Pokémon
+					<input type="search" id="pokemon-input" list="pokemons">
+					<datalist id="pokemons">
+						<!-- Pokémon names will be added here dynamically -->
+					</datalist>
+				</label>
+				<button type="submit">Search</button>
+			</form>
+		</div>
+		<section class="page_grid">
+			<div>
+			<h1>Pokédex</h1>
+			<ul class="pokeList"></ul>
+			<a href="" class="prevPage">Previous</a> | <a href="" class="nextPage">Next</a>
+			</div>
+			<div class="pokemon"></div>
+			<div class="speccs"></div>
+		</section>
+	</div>
+	<script src="/pokemon.js" defer></script>
+	<script src="/search.js" defer></script>
+</body>
+</html>

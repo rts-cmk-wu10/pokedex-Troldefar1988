@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/spinner.css">
+</head>
+<body>
+	<div class="spinner"></div>
+
+	<script>
+		const SPINNER = document.querySelector(".spinner")
+		SPINNER.style.display = "block"
+	</script>
+</body>
+</html>
+
+
+
+<div class="pokemon">
+	<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+		<!-- White Right Half -->
+		<path d="M5 50 A45 45 0 0 0 95 50 Q75 50 5 50" fill="#ffffff" />
+
+		<!-- Red Left Half -->
+		<path d="M5 50 A45 45 0 0 1 95 50 Q75 50 5 50" fill="#ed1c24" />
+
+		<!-- Black Horizontal Line -->
+		<rect x="5" y="47.5" width="90" height="5" fill="#000000" />
+
+		<!-- Black Center Circle -->
+		<circle cx="50" cy="50" r="10" fill="#000000" />
+
+		<!-- Smaller White Circle Inside the Center -->
+		<circle cx="50" cy="50" r="5" fill="#ffffff" />
+	</svg>
+</div>

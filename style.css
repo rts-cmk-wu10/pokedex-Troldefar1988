@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+datalist option::first-letter {
+	text-transform: uppercase;
+  }
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.device img,
+.roton {
+	width: 15%;
+	height: auto;
+}
+
+.page_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pokeList a,
+.page_grid a {
+	text-decoration: none;
+	color: black;
+}
+
+.pokeList a:hover,
+.page_grid a:hover {
+	color: blue;
+}
+
+.prevPage,
+.nextPage {
+	font-size: 24px;
+}
+
+.poke_name,
+.poke_img {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
